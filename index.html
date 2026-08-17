@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="An interactive B2+ English lesson on natural adjective order.">
+  <title>A beautiful old Italian town — interactive English lesson</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-copy">
+      <span class="kicker">B2+ · one-to-one · speaking grammar</span>
+      <h1>A beautiful <em>old</em> Italian town</h1>
+      <p>Build richer descriptions. Put every adjective where it sounds natural.</p>
+    </div>
+    <div class="order-demo" aria-label="Adjective order overview">
+      <span class="opinion">opinion</span><b>→</b><span class="size">size</span><b>→</b><span class="age">age</span><b>→</b><span class="colour">colour</span><b>→</b><span class="material">material</span><b>→</b><span class="noun">noun</span>
+    </div>
+    <div class="progress-line"><span id="progressBar"></span></div>
+  </header>
+  <nav id="lessonNav" class="lesson-nav" aria-label="Lesson sections"></nav>
+  <main id="lesson" tabindex="-1"><div class="loading">Preparing the lesson…</div></main>
+  <footer class="pager">
+    <button id="prev" type="button">← Previous</button>
+    <span id="pageLabel">Section 1</span>
+    <button id="next" class="primary" type="button">Next →</button>
+  </footer>
+</body>
+</html>
